@@ -10,6 +10,29 @@ header {
     background-color: #ffffff;
     padding: 20px 0;
 }
+h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Arial', sans-serif;
+    font-weight: lighter;
+    color: #000000;
+}
+
+main {
+    float: center;
+    width: 80%;
+    margin-left: 20%;
+    padding: 1%;
+    background-color: #ffffff;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    margin: 0.5%;
+    padding: 1%;
+    background-color: #ffffff;
+}
 
 /* Estilo del menú */
 .menu {
@@ -45,3 +68,16 @@ header {
 .menu ul li a:hover {
     color: #7ABA96; /* Color al pasar el cursor */
 }
+
+.isagil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.centrar {
+    text-align: center;
+}
+
